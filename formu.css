@@ -1,0 +1,59 @@
+@media only screen and (max-width: 768px){
+	.container .form-group {display:inline;padding:41px}
+		#inputState{
+			width:28%;
+			display: inline;
+			margin-top: 18px;
+		}
+		#ville{
+			width: 31%;
+
+		}
+		#lblhotel{
+			width: 22%;
+
+		}
+		#hotel{
+			width: 27%;
+    margin-left: -16%;
+		}
+		#divcham{
+margin-left: -39px;
+		}
+		#cham{
+			    width: 231px;
+		}
+		#divadulte{
+			    margin-left: 13px;
+		}
+		#lbladulte{
+			width: 9%;
+    margin-left: -5%;
+		}
+		#adulte{
+			width: 202px;
+		}
+		#enfants{
+			width: 211px;
+		}
+		.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+		.containerDate {
+    max-width: 100%;
+    width: 100%;
+    margin: 2%;
+    text-align: center;
+}
+	#lblar{
+		margin-left: -84px;
+	}
+	#date{
+			width:44%;
+		}
+
+}

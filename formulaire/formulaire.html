@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--Form-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		#inputState{
+			width:10%;
+			display: inline;
+		}
+		#date{
+			width:25%;
+		}
+		.container .form-group {display:inline;padding:10px}
+		.containerDate{
+			max-width: 100%;
+			width:100%;
+			margin: 1%;
+			text-align: center;
+		}
+		.btn{
+			vertical-align: baseline;
+		}
+		</style>
+	<title>Formulaire</title>
+</head>
+<body>
+	<div style="background-color: #75fb96;">
+	<div class="container">
+		<form>
+		<div class="form-group">
+	      	<label for="inputState">Pays</label>
+	      	<select id="inputState" class="form-control">
+	        <option selected>Maroc</option>
+	        <option selected>France</option>
+	        <option selected>Spain</option>
+	        <option selected>Algerie</option>
+	        <option selected>Germany</option>
+	        <option selected>Italy</option>
+	      </select>
+	  </div>
+	  <div class="form-group">
+	      <label for="inputState">Pays</label>
+	      <select id="inputState" class="form-control">
+	        <option selected>Ville 1</option>
+	        <option selected>Ville 2</option>
+	        <option selected>Ville 3</option>
+	        <option selected>Ville 4</option>
+	        <option selected>Ville 5</option>
+	        <option selected>Ville 6</option>
+	      </select>
+	  </div>
+	  <div class="form-group">
+	      <label for="inputState">Hotels</label>
+	      <select id="inputState" class="form-control">
+	        <option selected>Hotel 1</option>
+	        <option selected>Hotel 2</option>
+	        <option selected>Hotel 3</option>
+	        <option selected>Hotel 4</option>
+	        <option selected>Hotel 5</option>
+	        <option selected>Hotel 6</option>
+	      </select>
+	  </div>
+
+	  	<div class="form-group">
+	      <label for="inputState">Chambres</label>
+	      <select id="inputState" class="form-control">
+	        <option selected>1</option
+	        <option>2</option>
+	        <option>3</option>
+	        <option>4</option>
+	      </select>
+	  </div>
+
+	  <div class="form-group">  
+	      <label for="inputState">Adultes</label>
+	      <select id="inputState" class="form-control">
+	        <option selected>1</option>
+	        <option>2</option>
+	        <option>3</option>
+	        <option>4</option>
+	      </select>
+	  </div>
+	  <div class="form-group">
+	      <label for="inputState">Enfants</label>
+	      <select id="inputState" class="form-control">
+	        <option selected>1</option>
+	        <option>2</option>
+	        <option>3</option>
+	        <option>4</option>
+	      </select>
+	  </div>
+  </div>
+
+  <div class="container">
+  	<div class="containerDate">
+    <div class="form-group"">
+    	<label>Date d'arrivé : </label>
+    	<input type="date" name="dateArr" id="date" class="form-control" style="display:inline">
+    	<label>Date d'épart : </label>
+    	<input type="date" name="dateDep" id="date" class="form-control" style="display:inline">
+    	<input type="submit" name="submit" class="btn btn-primary">
+    </div>
+</div>
+    </div>
+   
+
+</form>
+</div>
+</body>
+</html>
